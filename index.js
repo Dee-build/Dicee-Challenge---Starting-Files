@@ -57,3 +57,14 @@ else {
 
 
 
+if (randomNumber > randomNumber2) {
+    document.querySelector("h1").innerHTML = "Player1 wins"
+}
+
+else if (randomNumber2 > randomNumber) {
+    document.querySelector("h1").innerHTML = "Player2 wins"
+}
+
+else {
+    document.querySelector("h1").innerHTML = "Draw"
+}
